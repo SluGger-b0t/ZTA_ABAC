@@ -1,0 +1,16 @@
+{
+  "read_policy": {
+    "actions": ["read"],
+    "conditions": [
+      { "attribute": "role", "value": ["doctor", "nurse"] },
+      { "attribute": "active_shift", "value": true }
+    ]
+  },
+  "update_policy": {
+    "actions": ["update"],
+    "conditions": [
+      { "attribute": "role", "value": ["doctor"] },
+      { "attribute": "active_shift", "value": true }
+    ]
+  }
+}

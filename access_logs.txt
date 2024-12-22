@@ -1,0 +1,5 @@
+{'user': 'Ambulance Alex', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Action not allowed for role', 'timestamp': '2024-12-22T11:32:41.149286'}
+{'user': 'Ambulance Alex', 'resource_id': 101, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:32:44.425558'}
+{'user': 'Admin Mike', 'resource_id': 101, 'action': 'read', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2024-12-22T11:32:44.426572'}
+{'user': 'Dr. John', 'resource_id': 101, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:34:40.148306'}
+{'user': 'Nurse Jane', 'resource_id': 102, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:34:40.151304'}
