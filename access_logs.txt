@@ -1,5 +1,32 @@
-{'user': 'Ambulance Alex', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Action not allowed for role', 'timestamp': '2024-12-22T11:32:41.149286'}
-{'user': 'Ambulance Alex', 'resource_id': 101, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:32:44.425558'}
-{'user': 'Admin Mike', 'resource_id': 101, 'action': 'read', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2024-12-22T11:32:44.426572'}
-{'user': 'Dr. John', 'resource_id': 101, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:34:40.148306'}
-{'user': 'Nurse Jane', 'resource_id': 102, 'action': 'break-glass', 'decision': 'PERMIT', 'reason': 'Time-bound emergency override', 'timestamp': '2024-12-22T11:34:40.151304'}
+{'user': 'Dr. Rajesh Kumar', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:57:48.543035'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:57:48.545028'}
+{'user': 'Pharmacist Meena Desai', 'resource_id': 103, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:57:48.547021'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:04.908883'}
+{'user': 'Dr. Rajesh Kumar', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:16.941318'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:16.942310'}
+{'user': 'Pharmacist Meena Desai', 'resource_id': 103, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:16.943308'}
+{'user': 'Admin Suresh Verma', 'resource_id': 105, 'action': 'manage', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T12:59:16.946297'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'PERMIT', 'reason': 'Break Glass invoked by admin', 'timestamp': '2025-02-01T12:59:22.141889'}
+{'user': 'Surgeon Kavita Mehta', 'resource_id': 107, 'action': 'write', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:22.143880'}
+{'user': 'Physician Seema Iyer', 'resource_id': 108, 'action': 'read', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T12:59:22.144877'}
+{'user': 'Admin Suresh Verma', 'resource_id': 'N/A', 'action': 'audit_logs', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T12:59:22.146919'}
+{'user': 'Dr. Rajesh Kumar', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:08.377386'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:08.379386'}
+{'user': 'Pharmacist Meena Desai', 'resource_id': 103, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:08.381378'}
+{'user': 'Admin Suresh Verma', 'resource_id': 105, 'action': 'manage', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T13:01:08.383370'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 101, 'action': 'update', 'decision': 'PERMIT', 'reason': 'Break Glass invoked by admin', 'timestamp': '2025-02-01T13:01:12.065454'}
+{'user': 'Surgeon Kavita Mehta', 'resource_id': 107, 'action': 'write', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:12.067418'}
+{'user': 'Physician Seema Iyer', 'resource_id': 108, 'action': 'read', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:12.069415'}
+{'user': 'Admin Suresh Verma', 'resource_id': 'N/A', 'action': 'audit_logs', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T13:01:12.071389'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 105, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:12.072385'}
+{'user': 'Admin Suresh Verma', 'resource_id': 106, 'action': 'read', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T13:01:12.073382'}
+{'user': 'Physician Seema Iyer', 'resource_id': 104, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:12.074412'}
+{'user': 'Dr. Rajesh Kumar', 'resource_id': 110, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:12.076411'}
+{'user': 'Admin Suresh Verma', 'resource_id': 104, 'action': 'read', 'decision': 'DENY', 'reason': 'User is not on active shift', 'timestamp': '2025-02-01T13:01:12.078366'}
+{'user': 'Pharmacist Meena Desai', 'resource_id': 106, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:14.580857'}
+{'user': 'Surgeon Kavita Mehta', 'resource_id': 107, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:14.582848'}
+{'user': 'Anesthesiologist Ravi Reddy', 'resource_id': 107, 'action': 'read', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:14.584859'}
+{'user': 'Admin Suresh Verma', 'resource_id': 101, 'action': 'update', 'decision': 'PERMIT', 'reason': 'Break Glass invoked by admin', 'timestamp': '2025-02-01T13:01:17.499144'}
+{'user': 'Billing Clerk Aarti Yadav', 'resource_id': 104, 'action': 'read', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:17.502648'}
+{'user': 'Receptionist Nisha Patel', 'resource_id': 104, 'action': 'update', 'decision': 'DENY', 'reason': 'Policy evaluation failed', 'timestamp': '2025-02-01T13:01:17.503651'}
+{'user': 'Nurse Priya Sharma', 'resource_id': 107, 'action': 'read', 'decision': 'PERMIT', 'reason': 'Break Glass invoked by admin', 'timestamp': '2025-02-01T13:01:18.889802'}

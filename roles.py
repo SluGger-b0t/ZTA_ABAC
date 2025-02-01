@@ -1,0 +1,22 @@
+roles = {
+    "doctor": ["read", "update", "write", "delete", "request_approval"],
+    "nurse": ["read", "update", "delete", "request_approval"],
+    "admin": [
+        "read",
+        "update",
+        "manage",
+        "delete",
+        "create",
+        "approve",
+        "revoke_access",
+    ],
+    "ambulance": ["read", "update"],
+    "pharmacist": ["read", "update", "write", "modify_inventory"],
+    "receptionist": ["read", "create", "schedule_appointments"],
+    "lab_technician": ["read", "update", "generate_reports"],
+    "billing_clerk": ["read", "update", "manage_billing"],
+    "surgeon": ["read", "update", "write", "delete", "perform_surgery"],
+    "anesthesiologist": ["read", "update", "write", "administer_anesthesia"],
+    "physician": ["read", "update", "prescribe_treatment"],
+    "xray_technician": ["read", "update", "manage_images"],
+}
